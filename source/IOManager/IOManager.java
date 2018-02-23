@@ -10,7 +10,7 @@ public class IOManager {
         this.file = f;
     }
 
-    public String read() throws IOException{
+    private String read() throws IOException{
         StringBuilder string = new StringBuilder();
         int by;
         FileReader inputStream = new FileReader(this.file);
@@ -20,7 +20,7 @@ public class IOManager {
         return string.toString();
     }
 
-    public void write(String string) throws IOException {
+    private void write(String string) throws IOException {
         FileWriter outputStream = new FileWriter(this.file);
         outputStream.write(string);
         outputStream.close();
