@@ -50,7 +50,7 @@ public class NumberSum extends Algorithm {
     public static void main(String [] args) {
         Object [] alphabet = {"+","-","*"}; // Alphabet
         Config c = new Config(
-                alphabet,0.8,0,15,100,3,0,"/Users/enolalvarezdeprado/Dropbox/Mis cosas/GeneticAI/oye.txt"
+                alphabet,0.8,0,15,100,3,0,"FILE PATH"
         );
         NumberSum numberSum = new NumberSum();
         numberSum.setConfig(c);
