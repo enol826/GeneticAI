@@ -1,3 +1,8 @@
+/*
+    AUTHOR: enol826
+    LICENSE: MIT
+    SOURCE: GitHub (https://github.com/enol826/)
+*/
 package source.IOManager;
 
 import java.io.File;
