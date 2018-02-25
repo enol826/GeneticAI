@@ -1,3 +1,8 @@
+/*
+    AUTHOR: enol826
+    LICENSE: MIT
+    SOURCE: GitHub (https://github.com/enol826/)
+*/
 package source;
 
 import java.util.Date;
