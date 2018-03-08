@@ -10,7 +10,6 @@ import source.Config;
 
 public class NumberSum extends Algorithm {
     /*
-        2x^2 + 7 = 0
         EXAMPLE.
         PROBLEM
         Given:
